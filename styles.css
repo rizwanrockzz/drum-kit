@@ -36,11 +36,11 @@ body {
 }
 
 .d {
-  background-image: url("/images/tom4.png");
+  background-image: url("images/tom4.png");
 }
 
 .j {
-  background-image: url("/images/crash.png");
+  background-image: url("images/crash.png");
 }
 
 .k {
