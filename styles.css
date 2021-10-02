@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column; */
+  /* text-align: center; */
+  background-color: #283149;
+}
+
+#title {
+  font-size: 4rem;
+  color: #dbedf3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #da0463;
+  text-align: center;
+  margin: 10px;
+}
+
+.w {
+  background-image: url("/images/tom1.png");
+}
+
+.a {
+  background-image: url("/images/tom2.png");
+}
+
+.s {
+  background-image: url("/images/tom3.png");
+}
+
+.d {
+  background-image: url("/images/tom4.png");
+}
+
+.j {
+  background-image: url("/images/crash.png");
+}
+
+.k {
+  background-image: url("/images/kick.png");
+}
+
+.l {
+  background-image: url("/images/snare.png");
+}
+
+.set1 {
+  margin: 5% 10%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+.set1 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.set2 {
+  margin: 3% 20%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.set2 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  /* display: inline-block; */
+  width: 150px;
+  height: 150px;
+  /* text-align: center; */
+  margin: 10px;
+  background-color: white;
+}
+
+footer {
+  color: #dbedf3;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 30px;
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 770px) {
+  .set1 {
+    margin: 5% 25%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .set2 {
+    grid-template-columns: 1fr 1fr;
+    margin: 5% 25%;
+  }
+  .set2 .ipad{
+    margin: 5% 65%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .set1 {
+    margin: 5% 15%;  
+  }
+  .set2 {
+    margin: 5% 15%;
+  }
+  .set2 .ipad{
+    margin: 5% 65%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #title {
+    font-size: 3rem;
+  }
+  .set1 {
+    /* margin: 30%; */
+    /* grid-template-columns: 1fr; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .set2 {
+    margin-top: 10%;
+    /* grid-template-columns: 1fr; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
